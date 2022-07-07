@@ -507,7 +507,7 @@ video{
 .span{
     height: 50px;
     width: 50px;
-    border: 2px solid #F78A22;
+    border: 1px solid #F78A22;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -823,11 +823,14 @@ hr{
     }
     .dbut{
         display: flex;
+        justify-content:center ;
+        align-items: center;
+
+        
     }
     .imag{
-        height: 250px;
-        margin-left: 25px;
-        margin-top: 10px;
+        height: 200px;
+        margin-top: 10px; 
     }
     .left{
         padding: 50px 30px;
@@ -1141,8 +1144,7 @@ hr{
         margin-top: 50px;
         height: 200vh;
         width: 100%;
-        border-radius: 20px;
-        background-color: #ECEDF3;
+        background-color:#ECEDF3 ;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -1210,7 +1212,13 @@ hr{
         height: 300px;
         max-width: 100%;
       }
-      
+      .carousel-bullet {
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        font-size: 35px;
+        height: 10px;
+      }
       
     .model{
         display: none;
@@ -1222,6 +1230,7 @@ hr{
     
     .slide{
         display: flex;
+        margin-left: 30px;
     }
     .span{
         height: 50px;
@@ -1251,22 +1260,20 @@ hr{
         width: 350px;
         height: 300px;
         border-radius: 10px;  
+        margin-right: 70px;
     }
-    .total-energie{
-        margin-right: 20px;
-    }
-    
+   .temoin{
+    margin-left: 40px;
+   }
     .carousel-inner {
         position: relative;
         overflow: hidden;
         width: 100%;
-        
       }
     .section7{
         display: flex;
         margin-top: 150px;
         display: none;
-    
      }
      .section7-mobile{
         display: flex;
@@ -1279,85 +1286,30 @@ hr{
         flex-direction: column;
         margin-top: 100px;
         margin-left: 20px;
-        
-        
      }
      .mail{
         height: 30px;
-        width: 200px;
+        width: 250px;
         background: #FFFFFF;
         border-radius: 5px;
         border: none;
      }
      .souscrir{
         height: 30px;
-        width: 200px;
+        width: 250px;
         border-radius: 5px;
         background: #F78A22;
         border: none;
         font-size: 8px;
         color: white;
-        
+
+     }
+     .abonnemnt{
+       margin-right: 20px;
      }
      .souscrir:hover{
         color: black;
         cursor: pointer;
-    }
-     .block-reseau{
-        display: flex;
-     }
-     .facebook{
-        width: 150px;
-        height: 150px;
-        background: #FFFFFF;
-        box-shadow: 0px 24px 48px rgba(0, 8, 92, 0.0813519);
-        border-radius: 16px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        position: absolute;
-        left: 370px;
-        bottom: -30px;
-        
-     }
-     .linkedin{
-        width: 150px;
-        height: 150px;
-        background: #FFFFFF;
-        box-shadow: 0px -24px 48px rgba(0, 8, 92, 0.0813519);
-        border-radius: 16px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        left: 550px;
-        bottom: 80px;
-      
-     }
-     .email{
-        height: 30px;
-        width: 200px;
-        background: #FFFFFF;
-        border-radius: 5px;
-        border: none;
-     }
-     .souscrire{
-        height: 30px;
-        width: 75px;
-        border-radius: 5px;
-        background: #F78A22;
-        border: none;
-        font-size: 8px;
-        color: white;
-        margin-bottom: 10px;
-        
-     }
-     .souscrire:hover{
-        color: black;
-        cursor: pointer;
-    }
-    .carosel{
-        display: none;
     }
     .footer {
         background-image: url(./images/Rectangle.png);
@@ -1380,13 +1332,13 @@ hr{
         flex-direction: column;
         color: white;
         margin-top: 100px;
-        margin-left: 20px;
+        
         
     }
     .form {
         background-color: white;
         height: 1000px;
-        width: 300px;
+        width: 350px;
         margin-top: 80px;
         border-radius: 20px;
         display: flex;
@@ -1410,16 +1362,19 @@ hr{
         display: flex;
         justify-content: space-around;
     }
+    
+    .dads{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
     hr{
-        width: 1250px;
+        width: 400px;
         height: 1px;
         background: #FFFFFF;
         mix-blend-mode: normal;
         opacity: 0.1;
         align-self: center;
+        margin-top: 30px;
     }
-    .dads{
-        margin-left: 20px;
-    }
-    
 }
