@@ -10,7 +10,7 @@
 <body>
      <!--starts header-->
      <header class="header">
-        <nav>
+        <nav class="navbar">
             <img class="logo" src="./images/logo.png" height="70px" alt="">
             <ul>
                 <li><a href=""> A propos </a></li>
@@ -19,24 +19,46 @@
                 <li><a href="">Projets</a></li> 
                 <li><a href="">Contact</a></li>    
            </ul>
-           <div class="mob">
-               <div>
-                    <label for="toggle">☰</label>
-                    <input type="checkbox" id="toggle">
-               </div>
-                <div>
-                    <a href="" class="link">Français</a> 
-                    <img class="translate" src="./images/translate.png" alt="">
-                    <img class="down" src="./images/down.png" alt="">
-                </div>
+           
+           
            </div>
            <div class="icon1">
-                <button class="btn-outline">DEVIS</button>
+                <button class="btn">
+                    <span>DEVIS</span>
+                </button>
                 <a href="" class="link">Français</a>  
                 <img class="translate" src="./images/translate.png" alt="">
                 <img class="down" src="./images/down.png" alt="">
            </div>
+          
         </nav>
+        <div class="mob">
+            <div><img class="log" src="./images/logo.png" alt=""></div>
+            <div class="hamburger-menu">
+                <label class="dropdown">
+                    <div class="dd-button">
+                      langue
+                    </div>
+                    <input type="checkbox" class="dd-input" id="test">
+                    <ul class="dd-menu">
+                      <li>Francais</li>
+                      <li>Anglais</li>
+                    </ul>
+                </label>
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+            
+                <ul class="menu__box">
+                        <li><a class="menu__item" href="#">A propos </a></li>
+                        <li><a class="menu__item" href="#">Services</a></li>
+                        <li><a class="menu__item" href="#">Missions</a></li>
+                        <li><a class="menu__item" href="#">Projets</a></li>
+                        <li><a class="menu__item" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
         <section class="section1">
             <div class="dbut"><img class="imag" src="./images/image.png" alt=""></div>
             <div class="left">
@@ -228,7 +250,7 @@
                 <div class="groupe">
                     <div class="circle-bleu"><img class="circle6" src="./images/Shape (2).png"  alt=""></div> <br>
                     <div>
-                        <h4 >Traffic</h4> 
+                        <h4 style="margin-left: 17px;" >Traffic</h4> 
                         <p  class="lorem ">
                             Lorem ipsum dolor sit amet <br>
                             adipiscing elit. Curabitur  <br>
@@ -239,7 +261,7 @@
                 <div class="groupe">
                     <div class="circle-orang"><img  class="circle6" src="./images/Combined Shape (4).png" alt=""></div> <br>
                     <div>
-                        <h4 >Reputation</h4> 
+                        <h4 style="margin-left: 17px;">Reputation</h4> 
                         <p class="lorem">
                             Lorem ipsum dolor sit amet <br>
                             adipiscing elit. Curabitur  <br>
@@ -250,7 +272,7 @@
                 <div class="groupe">
                     <div class="circle-rose"><img class="circle6" src="./images/reseau.png"  alt=""></div> <br>
                     <div>
-                        <h4>Conversion</h4> 
+                        <h4 style="margin-left: 17px;">Conversion</h4> 
                         <p class="lorem">
                             Lorem ipsum dolor sit amet <br>
                             adipiscing elit. Curabitur  <br>
@@ -263,7 +285,7 @@
                 <div class="groupe">
                     <div class="circle-bleu"><img  class="circle6" src="./images/Combined Shape (2).png"  alt=""></div> <br>
                     <div>
-                        <h4>Customers</h4> 
+                        <h4 style="margin-left: 17px;">Customers</h4> 
                         <p class="lorem">
                             Lorem ipsum dolor sit amet <br>
                             adipiscing elit. Curabitur  <br>
@@ -274,7 +296,7 @@
                 <div class="groupe">
                     <div class="circle-bleu"><img class="circle6" src="./images/Shape (1).png" alt=""></div> <br>
                     <div>
-                        <h4>Marketing</h4> 
+                        <h4 style="margin-left: 17px;">Marketing</h4> 
                         <p class="lorem">
                             Lorem ipsum dolor sit amet <br>
                             adipiscing elit. Curabitur  <br>
@@ -285,7 +307,7 @@
                 <div class="groupe">
                     <div class="circle-orang"><img  class="circle6" src="./images/user.png"  alt=""></div> <br>
                     <div>
-                        <h4>Digital</h4> 
+                        <h4 style="margin-left: 17px;">Digital</h4> 
                         <p class="lorem">
                             Lorem ipsum dolor sit amet <br>
                             adipiscing elit. Curabitur  <br>
@@ -445,7 +467,7 @@
                 <p>Vous pouvez vous abonner à notre <br> newsletters et nos pages</p> <br>             
             </div>
             <div class="abonnemnt">
-                <input class="mail" type="email" placeholder="Votre Email"> <br> <br>
+                <input style="padding: 0px 10px ;" class="mail" type="email" placeholder="Votre Email"> <br> <br>
                 <button class="souscrir">SOUSRCRIRE</button>
             </div>
     </section>
@@ -479,7 +501,7 @@
             <div style="width: 60%;">
                 <label style="color: black;display: flex; flex-direction: column; margin-top: 6%; font-weight: bold; font-size: 12px;" for="">MESSAGE <br> <br> <input style="height: 100px; width: 100%; border-radius: 5px; opacity: 50%;" type="text"></label>
             </div> <br><br>
-            <button class="soumet" type="submit" style="width: 130px; height: 35px; background-color: #e02780; border: none; border-radius: 4px; cursor: pointer; color: white;">SOUMETTRE</button>
+            <button class="soumet" type="submit">SOUMETTRE</button>
         </div>
 
        <div class="footer-bottom">
@@ -531,14 +553,14 @@
                 Excepturi</p>
             </div>
             <div>
-                <input style="height: 40px; width: 250px; border-radius: 5px; border: 1px solid black;" type="name" placeholder="Votre nom"> <br> <br>
-                <input style="height: 40px; width: 250px; border-radius: 5px; border: 1px solid black;" type="name" placeholder=" Votre prenom"> <br> <br>
-                <input style="height: 40px; width: 250px; border-radius: 5px; border: 1px solid black;" type="email"  required="required"  placeholder=" Votre email*"> <br> <br>
-                <input style="height: 40px; width: 250px;border-radius: 5px; border: 1px solid black;" type="email" placeholder=" Service"> <br> <br>
-                <input style="height: 100px; width: 250px;border-radius: 5px; border: 1px solid black;" type="text" placeholder="Votre message">
+                <input style="height: 40px; padding: 0px 10px ; width: 250px; border-radius: 5px; border: 1px solid black;" type="name" placeholder="Votre nom"> <br> <br>
+                <input style="height: 40px; padding: 0px 10px ; width: 250px; border-radius: 5px; border: 1px solid black;" type="name" placeholder=" Votre prenom"> <br> <br>
+                <input style="height: 40px; padding: 0px 10px ; width: 250px; border-radius: 5px; border: 1px solid black;" type="email"  required="required"  placeholder=" Votre email*"> <br> <br>
+                <input style="height: 40px; padding: 0px 10px ; width: 250px;border-radius: 5px; border: 1px solid black;" type="email" placeholder=" Service"> <br> <br>
+                <input style="height: 100px; padding: 0px 10px ; width: 250px;border-radius: 5px; border: 1px solid black;" type="text" placeholder="Votre message">
             </div>
             <div>
-                <button type="submit" style="width: 130px; height: 35px; background-color: #e02780; border: none; border-radius: 4px; cursor: pointer; color: white;">SOUMETTRE</button>
+                <button class="soumit" type="submit" >SOUMETTRE</button>
             </div>
         </div>
        <div class="footer-bottom">
